@@ -42,7 +42,7 @@ function Portfolio() {
         </div>
 
         <a
-          href="/public/CV - Santiago Traba.pdf"
+          href="Cv.pdf"
           target="_blank"
           className="bg-white px-4 py-2 rounded-md mt-5 flex justify-center gap-2 hover:scale-[105%] transition-all w-56"
         >
