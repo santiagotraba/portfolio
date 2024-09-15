@@ -1,5 +1,6 @@
 import EGym from "../public/EGym.png";
-import PokemonApi from "../public/PokemonApi.png"
+import PokemonApi from "../public/PokemonApi.png";
+import fotoparaproyectoderecetas from "../public/fotoparaproyectoderecetas.png"
 
 export const PROYECTS = [
   {
@@ -16,5 +17,13 @@ export const PROYECTS = [
     media: PokemonApi,
     url: "https://pi-pokemon-front-production.up.railway.app/home",
     github: "https://github.com/santiagotraba/pi-pokemon-front"
+  },
+
+  {
+    name: "Recetas de cocina",
+    description: "Pagina web sobre recetas de cocinas",
+    media: fotoparaproyectoderecetas,
+    url: "https://recetasdecocina-eloxgg3yp-santiagotrabas-projects.vercel.app/",
+    github: "https://github.com/santiagotraba/recetasdecocina/tree/main"
   }
 ];
