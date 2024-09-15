@@ -23,7 +23,7 @@ export const PROYECTS = [
     name: "Recetas de cocina",
     description: "Pagina web sobre recetas de cocinas",
     media: fotoparaproyectoderecetas,
-    url: "https://recetasdecocina-eloxgg3yp-santiagotrabas-projects.vercel.app/",
+    url: "https://recetasdecocina.vercel.app/",
     github: "https://github.com/santiagotraba/recetasdecocina/tree/main"
   }
 ];
