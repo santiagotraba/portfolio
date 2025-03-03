@@ -1,6 +1,7 @@
 import EGym from "../public/EGym.png";
 import PokemonApi from "../public/PokemonApi.png";
 import fotoparaproyectoderecetas from "../public/fotoparaproyectoderecetas.png"
+import taskmanager from "../public/taskmanager.png"
 
 export const PROYECTS = [
   {
@@ -25,5 +26,13 @@ export const PROYECTS = [
     media: fotoparaproyectoderecetas,
     url: "https://recetasdecocina.vercel.app/",
     github: "https://github.com/santiagotraba/recetasdecocina/tree/main"
-  }
+  },
+
+  {
+    name: "Task manager",
+    description: "Creador de tareas",
+    media: taskmanager,
+    url: "https://task-manager-frontend-sepia.vercel.app/login",
+    github: "https://github.com/santiagotraba/task-manager-frontend",
+  },
 ];
