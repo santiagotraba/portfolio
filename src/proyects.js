@@ -2,6 +2,7 @@ import EGym from "../public/EGym.png";
 import PokemonApi from "../public/PokemonApi.png";
 import fotoparaproyectoderecetas from "../public/fotoparaproyectoderecetas.png"
 import taskmanager from "../public/taskmanager.png"
+import projectpulse from "../public/projectpulse.png"
 
 export const PROYECTS = [
   {
@@ -34,5 +35,13 @@ export const PROYECTS = [
     media: taskmanager,
     url: "https://task-manager-frontend-sepia.vercel.app/login",
     github: "https://github.com/santiagotraba/task-manager-frontend",
+  },
+
+  {
+    name: "ProjectPulse",
+    description: "Dashboard corporativo para monitorear proyectos, métricas clave y estado general de la operación.",
+    media: projectpulse,
+    url: "https://pulse-task-control.lovable.app/",
+    github: "https://github.com/santiagotraba/pulse-task-control",
   },
 ];
