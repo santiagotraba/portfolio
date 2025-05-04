@@ -1,25 +1,35 @@
 import React from "react";
-import { Link } from "react-router-dom" // TONI INSTALAME y mejorame
 
-function Card({ proyect, index }) {
+function Card({ proyect }) {
   return (
     <div className="text-white rounded-md overflow-hidden bg-white/30">
       <img
         src={proyect?.media}
         alt={proyect?.name}
-        className="h-auto max-h-[200px] "
+        className="h-auto max-h-[200px] w-full object-cover"
       />
-      <div className="p-2 "> 
-        <h2 className="">{proyect?.name}</h2>
-        <p>{proyect?.description}</p>
-        <Link className="w-full flex justify-start p-1" to={proyect?.url}>Web</Link>
-        <Link className="w-full flex justify-start p-1" to={proyect?.github}>Github</Link>
+      <div className="p-2 space-y-1">
+        <h2 className="font-semibold text-lg">{proyect?.name}</h2>
+        <p className="text-sm">{proyect?.description}</p>
+        <a
+          className="block text-blue-300 hover:underline"
+          href={proyect?.url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Web
+        </a>
+        <a
+          className="block text-blue-300 hover:underline"
+          href={proyect?.github}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
       </div>
     </div>
   );
 }
 
 export default Card;
-
-// mt-4 text-black-500 px-4 py-2 border border-white/20 rounded-md transition-all text-white text-sm bg-white-500 transform hover:scale-105
-//style={{ height: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center'}}
