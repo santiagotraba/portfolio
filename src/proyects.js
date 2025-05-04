@@ -3,6 +3,7 @@ import PokemonApi from "../public/PokemonApi.png";
 import fotoparaproyectoderecetas from "../public/fotoparaproyectoderecetas.png"
 import taskmanager from "../public/taskmanager.png"
 import projectpulse from "../public/projectpulse.png"
+import nuevasformasde from "../public/nuevasformasde.png"
 
 export const PROYECTS = [
   {
@@ -43,5 +44,13 @@ export const PROYECTS = [
     media: projectpulse,
     url: "https://pulse-task-control.lovable.app/",
     github: "https://github.com/santiagotraba/pulse-task-control",
+  },
+
+  {
+    name: "Nuevas formas de",
+    description: " Landing page desarrollada para una iniciativa social que busca inspirar y empoderar a las personas a ser protagonistas de sus propias soluciones en cinco áreas clave: salud, nutrición, educación, comunidades y energía. El proyecto transmite una identidad disruptiva, emergente y creativa, con un fuerte enfoque en la innovación y el impacto social.",
+    media: nuevasformasde,
+    url: "https://nuevas-formas-vida-web.lovable.app/",
+    github: "https://github.com/santiagotraba/nuevas-formas-vida-web",
   },
 ];
