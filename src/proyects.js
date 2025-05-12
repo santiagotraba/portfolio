@@ -4,6 +4,7 @@ import fotoparaproyectoderecetas from "../public/fotoparaproyectoderecetas.png"
 import taskmanager from "../public/taskmanager.png"
 import projectpulse from "../public/projectpulse.png"
 import nuevasformasde from "../public/nuevasformasde.png"
+import interactivegridapp from "../public/interactivegridapp.png"
 
 export const PROYECTS = [
   {
@@ -52,5 +53,13 @@ export const PROYECTS = [
     media: nuevasformasde,
     url: "https://nuevas-formas-vida-web.lovable.app/",
     github: "https://github.com/santiagotraba/nuevas-formas-vida-web",
+  },
+
+  {
+    name: "Interactive grid app",
+    description: "Aplicación de dibujo pixelado con cuadrícula dinámica, selección de colores y modo arrastre. Desarrollada con JavaScript puro y CSS Grid.",
+    media: interactivegridapp,
+    url: "https://stellar-croquembouche-dee361.netlify.app/",
+    github: "https://github.com/santiagotraba/interactive-grid-app",
   },
 ];
