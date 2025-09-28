@@ -5,6 +5,7 @@ import taskmanager from "../public/taskmanager.png"
 import projectpulse from "../public/projectpulse.png"
 import nuevasformasde from "../public/nuevasformasde.png"
 import interactivegridapp from "../public/interactivegridapp.png"
+import mibalanceapp from "../public/mibalanceapp.png"
 
 export const PROYECTS = [
   {
@@ -61,5 +62,12 @@ export const PROYECTS = [
     media: interactivegridapp,
     url: "https://stellar-croquembouche-dee361.netlify.app/",
     github: "https://github.com/santiagotraba/interactive-grid-app",
+  },
+  {
+    name: "Mi balance",
+    description: "MiBalance es una aplicación web moderna y completa para la gestión de finanzas personales, diseñada para ayudar a los usuarios a mantener un control total sobre sus ingresos, gastos y metas de ahorro.",
+    media: mibalanceapp,
+    url: "https://mibalance-app.vercel.app/login",
+    github: "https://github.com/santiagotraba/MiBalance",
   },
 ];
