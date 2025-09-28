@@ -5,7 +5,7 @@ import taskmanager from "../public/taskmanager.png"
 import projectpulse from "../public/projectpulse.png"
 import nuevasformasde from "../public/nuevasformasde.png"
 import interactivegridapp from "../public/interactivegridapp.png"
-import mibalanceapp from "../public/MiBalance.png"
+import mibalanceapp from "../public/miBalance.png"
 
 export const PROYECTS = [
   {
