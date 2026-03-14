@@ -6,6 +6,7 @@ import projectpulse from "../public/projectpulse.png"
 import nuevasformasde from "../public/nuevasformasde.png"
 import interactivegridapp from "../public/interactivegridapp.png"
 import mibalanceapp from "../public/miBalance.png"
+import lolstatsdashboard from "../public/lolstatsdashboard.png"
 
 export const PROYECTS = [
   {
@@ -70,4 +71,11 @@ export const PROYECTS = [
     url: "https://mibalance-app.vercel.app/login",
     github: "https://github.com/santiagotraba/MiBalance",
   },
+  {
+    name: "LoL Stats Dashboard",
+    description: "LoL Stats Dashboard is a modern web application that allows users to search for League of Legends players and analyze their statistics. The app displays player profiles, champion performance, match history, and visual data insights through an interactive and responsive interface.",
+    media: lolstatsdashboard,
+    url: "https://lol-stats-dashboard.vercel.app",
+    github: "https://github.com/santiagotraba/lol-stats-dashboard",
+  }
 ];
