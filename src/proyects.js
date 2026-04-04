@@ -7,6 +7,7 @@ import nuevasformasde from "../public/nuevasformasde.png"
 import interactivegridapp from "../public/interactivegridapp.png"
 import mibalanceapp from "../public/miBalance.png"
 import lolstatsdashboard from "../public/lolstatsdashboard.png"
+import admindashboard from "../public/admindashboard.png"
 
 export const PROYECTS = [
   {
@@ -77,5 +78,12 @@ export const PROYECTS = [
     media: lolstatsdashboard,
     url: "https://lol-stats-dashboard.vercel.app",
     github: "https://github.com/santiagotraba/lol-stats-dashboard",
+  },
+  {
+    name: "Admin Dashboard",
+    description: "Production-ready admin dashboard with a modern UI/UX. Built using Next.js, React, and Tailwind CSS, featuring authentication, data visualization, dynamic tables, and CRUD operations within a scalable architecture.",
+    media: admindashboard,
+    url: "https://admin-dashboard-suite.vercel.app/login",
+    github: "https://github.com/santiagotraba/admin-dashboard-suite"
   }
 ];
