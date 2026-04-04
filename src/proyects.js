@@ -83,7 +83,7 @@ export const PROYECTS = [
     name: "Admin Dashboard",
     description: "Production-ready admin dashboard with a modern UI/UX. Built using Next.js, React, and Tailwind CSS, featuring authentication, data visualization, dynamic tables, and CRUD operations within a scalable architecture.",
     media: admindashboard,
-    url: "https://admin-dashboard-suite.vercel.app/login",
+    url: "https://admin-dashboard-suite.vercel.app",
     github: "https://github.com/santiagotraba/admin-dashboard-suite"
   }
 ];
