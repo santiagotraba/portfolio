@@ -8,6 +8,7 @@ import interactivegridapp from "../public/interactivegridapp.png"
 import mibalanceapp from "../public/miBalance.png"
 import lolstatsdashboard from "../public/lolstatsdashboard.png"
 import admindashboard from "../public/admindashboard.png"
+import professionalsaasdashboard from "../public/professionalsaasdashboard.png"
 
 export const PROYECTS = [
   {
@@ -85,5 +86,14 @@ export const PROYECTS = [
     media: admindashboard,
     url: "https://admin-dashboard-suite.vercel.app",
     github: "https://github.com/santiagotraba/admin-dashboard-suite"
+  },
+
+  {
+    name: "Professional SaaS Dashboard",
+    description:
+      "A modern and scalable SaaS dashboard built with Next.js, TypeScript, Tailwind CSS, and shadcn/ui. Features interactive analytics, customer management, billing pages, reusable UI components, responsive layouts, dark mode support, and a premium user experience inspired by modern SaaS platforms like Stripe, Linear, and Vercel.",
+    media: professionalsaasdashboard,
+    url: "https://nimbus-plum-nine.vercel.app/",
+    github: "https://github.com/santiagotraba/Nimbus"
   }
 ];
