@@ -9,6 +9,7 @@ import mibalanceapp from "../public/miBalance.png";
 import lolstatsdashboard from "../public/lolstatsdashboard.png";
 import admindashboard from "../public/admindashboard.png";
 import professionalsaasdashboard from "../public/professionalsaasdashboard.png";
+import finvio from "../public/finvio.png";
 
 export const PROYECTS = [
   {
@@ -93,12 +94,19 @@ export const PROYECTS = [
     url: "https://admin-dashboard-suite.vercel.app",
     github: "https://github.com/santiagotraba/admin-dashboard-suite",
   },
-
   {
     name: "Professional SaaS Dashboard",
     description:
-      "A modern web application designed to help users manage their personal finances efficiently and gain better visibility into their spending habits. The platform allows users to track income and expenses, organize transactions into categories, and analyze financial data through interactive dashboards and reports.",
+      "A modern and scalable SaaS dashboard built with Next.js, TypeScript, Tailwind CSS, and shadcn/ui. Features interactive analytics, customer management, billing pages, reusable UI components, responsive layouts, dark mode support, and a premium user experience inspired by modern SaaS platforms like Stripe, Linear, and Vercel.",
     media: professionalsaasdashboard,
+    url: "https://nimbus-plum-nine.vercel.app/",
+    github: "https://github.com/santiagotraba/Nimbus",
+  },
+  {
+    name: "Finvio",
+    description:
+      "A modern web application designed to help users manage their personal finances efficiently and gain better visibility into their spending habits. The platform allows users to track income and expenses, organize transactions into categories, and analyze financial data through interactive dashboards and reports.",
+    media: finvio,
     url: "https://pulse-purse-pro.vercel.app/auth",
     github: "https://github.com/santiagotraba/pulse-purse-pro",
   },
