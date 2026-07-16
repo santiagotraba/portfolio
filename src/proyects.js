@@ -10,6 +10,7 @@ import lolstatsdashboard from "../public/lolstatsdashboard.png";
 import admindashboard from "../public/admindashboard.png";
 import professionalsaasdashboard from "../public/professionalsaasdashboard.png";
 import finvio from "../public/finvio.png";
+import finzen from "../public/finzen.png";
 
 export const PROYECTS = [
   {
@@ -109,5 +110,12 @@ export const PROYECTS = [
     media: finvio,
     url: "https://pulse-purse-pro.vercel.app/auth",
     github: "https://github.com/santiagotraba/pulse-purse-pro",
+  },
+  {
+    name: "Finzen",
+    description:
+      "Gestor de finanzas personales. Aplicación web diseñada para ayudar a los usuarios a gestionar sus finanzas de forma simple e intuitiva: registrar ingresos y gastos, organizar movimientos por categorías, visualizar estadísticas con gráficos interactivos y hacer seguimiento de los hábitos financieros.",
+    media: finzen,
+    url: "https://expense-star.vercel.app/",
   },
 ];
