@@ -11,6 +11,7 @@ import admindashboard from "../public/admindashboard.png";
 import professionalsaasdashboard from "../public/professionalsaasdashboard.png";
 import finvio from "../public/finvio.png";
 import finzen from "../public/finzen.png";
+import gamestatsglee from "../public/gamestatsglee.png";
 
 export const PROYECTS = [
   {
@@ -118,5 +119,13 @@ export const PROYECTS = [
     media: finzen,
     url: "https://expense-star.vercel.app/",
     github: "https://github.com/santiagotraba/expense-star",
+  },
+  {
+    name: "Game Stats Glee",
+    description:
+      "Game Stats Glee is a web application that allows users to track and analyze their gaming statistics. The app displays player profiles, champion performance, match history, and visual data insights through an interactive and responsive interface.",
+    media: gamestatsglee,
+    url: "https://game-stats-glee.vercel.app/",
+    github: "https://github.com/santiagotraba/game-stats-glee",
   },
 ];
