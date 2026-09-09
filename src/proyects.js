@@ -132,7 +132,7 @@ export const PROYECTS = [
   {
     name: "Atlas",
     description:
-      "Atlas is a web application that allows users to track and analyze their gaming statistics. The app displays player profiles, champion performance, match history, and visual data insights through an interactive and responsive interface.",
+      "Atlas is a personal job-search tracker. It helps you keep applications, interviews, and offers in one kanban-style pipeline instead of scattered notes and spreadsheets. The UI covers sign-in, a dashboard with status columns (Saved, Applied, Screening, Interview, Offer, Rejected, Withdrawn), job cards, and a form to add roles. It is a frontend mockup: login is simulated, and jobs live in the browser only. There is no backend or database.",
     media: atlas,
     url: "https://my-job-buddy.vercel.app/auth",
     github: "https://github.com/santiagotraba/my-job-buddy",
