@@ -12,6 +12,7 @@ import professionalsaasdashboard from "../public/professionalsaasdashboard.png";
 import finvio from "../public/finvio.png";
 import finzen from "../public/finzen.png";
 import gamestatsglee from "../public/gamestatsglee.png";
+import atlas from "../public/atlas.png";
 
 export const PROYECTS = [
   {
@@ -127,5 +128,13 @@ export const PROYECTS = [
     media: gamestatsglee,
     url: "https://game-stats-glee.vercel.app/",
     github: "https://github.com/santiagotraba/game-stats-glee",
+  },
+  {
+    name: "Atlas",
+    description:
+      "Atlas is a web application that allows users to track and analyze their gaming statistics. The app displays player profiles, champion performance, match history, and visual data insights through an interactive and responsive interface.",
+    media: atlas,
+    url: "https://my-job-buddy.vercel.app/auth",
+    github: "https://github.com/santiagotraba/my-job-buddy",
   },
 ];
