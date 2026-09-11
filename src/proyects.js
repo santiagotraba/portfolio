@@ -1,140 +1,106 @@
-import EGym from "../public/EGym.png";
-import PokemonApi from "../public/PokemonApi.png";
-import fotoparaproyectoderecetas from "../public/fotoparaproyectoderecetas.png";
-import taskmanager from "../public/taskmanager.png";
-import projectpulse from "../public/projectpulse.png";
-import nuevasformasde from "../public/nuevasformasde.png";
-import interactivegridapp from "../public/interactivegridapp.png";
-import mibalanceapp from "../public/miBalance.png";
-import lolstatsdashboard from "../public/lolstatsdashboard.png";
-import admindashboard from "../public/admindashboard.png";
-import professionalsaasdashboard from "../public/professionalsaasdashboard.png";
-import finvio from "../public/finvio.png";
-import finzen from "../public/finzen.png";
-import gamestatsglee from "../public/gamestatsglee.png";
-import atlas from "../public/atlas.png";
-
 export const PROYECTS = [
   {
-    name: "E-GYM",
-    description: "Ecommerce sobre productos deportivos",
-    media: EGym,
-    url: "https://frontend-pf-three.vercel.app/",
-    github: "https://github.com/jdelaiglesia/egym-frontend",
-  },
-
-  {
-    name: "Pokemon",
-    description: "Pagina web sobre informacion de los pokemons",
-    media: PokemonApi,
-    url: "https://pi-pokemon-front-production.up.railway.app/home",
-    github: "https://github.com/santiagotraba/pi-pokemon-front",
-  },
-
-  {
-    name: "Recetas de cocina",
-    description: "Pagina web sobre recetas de cocinas",
-    media: fotoparaproyectoderecetas,
-    url: "https://recetasdecocina.vercel.app/",
-    github: "https://github.com/santiagotraba/recetasdecocina/tree/main",
-  },
-
-  {
-    name: "Task manager",
-    description: "Creador de tareas",
-    media: taskmanager,
-    url: "https://task-manager-frontend-sepia.vercel.app/login",
-    github: "https://github.com/santiagotraba/task-manager-frontend",
-  },
-
-  {
-    name: "ProjectPulse",
+    id: "nimbus",
+    name: "Nimbus",
     description:
-      "Dashboard corporativo para monitorear proyectos, métricas clave y estado general de la operación.",
-    media: projectpulse,
-    url: "https://pulse-task-control.lovable.app/",
-    github: "https://github.com/santiagotraba/pulse-task-control",
-  },
-
-  {
-    name: "Nuevas formas de",
-    description:
-      " Landing page desarrollada para una iniciativa social que busca inspirar y empoderar a las personas a ser protagonistas de sus propias soluciones en cinco áreas clave: salud, nutrición, educación, comunidades y energía. El proyecto transmite una identidad disruptiva, emergente y creativa, con un fuerte enfoque en la innovación y el impacto social.",
-    media: nuevasformasde,
-    url: "https://nuevas-formas-vida-web.lovable.app/",
-    github: "https://github.com/santiagotraba/nuevas-formas-vida-web",
-  },
-
-  {
-    name: "Interactive grid app",
-    description:
-      "Aplicación de dibujo pixelado con cuadrícula dinámica, selección de colores y modo arrastre. Desarrollada con JavaScript puro y CSS Grid.",
-    media: interactivegridapp,
-    url: "https://stellar-croquembouche-dee361.netlify.app/",
-    github: "https://github.com/santiagotraba/interactive-grid-app",
-  },
-  {
-    name: "Mi balance",
-    description:
-      "MiBalance es una aplicación web moderna y completa para la gestión de finanzas personales, diseñada para ayudar a los usuarios a mantener un control total sobre sus ingresos, gastos y metas de ahorro.",
-    media: mibalanceapp,
-    url: "https://mibalance-app.vercel.app/login",
-    github: "https://github.com/santiagotraba/MiBalance",
-  },
-  {
-    name: "LoL Stats Dashboard",
-    description:
-      "LoL Stats Dashboard is a modern web application that allows users to search for League of Legends players and analyze their statistics. The app displays player profiles, champion performance, match history, and visual data insights through an interactive and responsive interface.",
-    media: lolstatsdashboard,
-    url: "https://lol-stats-dashboard.vercel.app",
-    github: "https://github.com/santiagotraba/lol-stats-dashboard",
-  },
-  {
-    name: "Admin Dashboard",
-    description:
-      "Production-ready admin dashboard with a modern UI/UX. Built using Next.js, React, and Tailwind CSS, featuring authentication, data visualization, dynamic tables, and CRUD operations within a scalable architecture.",
-    media: admindashboard,
-    url: "https://admin-dashboard-suite.vercel.app",
-    github: "https://github.com/santiagotraba/admin-dashboard-suite",
-  },
-  {
-    name: "Professional SaaS Dashboard",
-    description:
-      "A modern and scalable SaaS dashboard built with Next.js, TypeScript, Tailwind CSS, and shadcn/ui. Features interactive analytics, customer management, billing pages, reusable UI components, responsive layouts, dark mode support, and a premium user experience inspired by modern SaaS platforms like Stripe, Linear, and Vercel.",
-    media: professionalsaasdashboard,
+      "Dashboard SaaS con analytics, clientes, billing y modo oscuro. UI de producto: métricas, tablas, gráficos y componentes reutilizables.",
+    media: "/professionalsaasdashboard.png",
     url: "https://nimbus-plum-nine.vercel.app/",
     github: "https://github.com/santiagotraba/Nimbus",
+    stack: ["Next.js", "TypeScript", "Tailwind", "shadcn/ui"],
+    role: "Frontend",
+    featured: true,
   },
   {
-    name: "Finvio",
+    id: "admin-dashboard",
+    name: "Admin Dashboard",
     description:
-      "A modern web application designed to help users manage their personal finances efficiently and gain better visibility into their spending habits. The platform allows users to track income and expenses, organize transactions into categories, and analyze financial data through interactive dashboards and reports.",
-    media: finvio,
-    url: "https://pulse-purse-pro.vercel.app/auth",
-    github: "https://github.com/santiagotraba/pulse-purse-pro",
+      "Panel de administración para un store: usuarios, productos, órdenes y métricas. Auth, tablas dinámicas, CRUD y visualización de datos.",
+    media: "/admindashboard.png",
+    url: "https://admin-dashboard-suite.vercel.app",
+    github: "https://github.com/santiagotraba/admin-dashboard-suite",
+    stack: ["Next.js", "React", "Tailwind"],
+    role: "Frontend",
   },
   {
-    name: "Finzen",
+    id: "egym",
+    name: "E-GYM",
     description:
-      "Gestor de finanzas personales. Aplicación web diseñada para ayudar a los usuarios a gestionar sus finanzas de forma simple e intuitiva: registrar ingresos y gastos, organizar movimientos por categorías, visualizar estadísticas con gráficos interactivos y hacer seguimiento de los hábitos financieros.",
-    media: finzen,
-    url: "https://expense-star.vercel.app/",
-    github: "https://github.com/santiagotraba/expense-star",
+      "Ecommerce de indumentaria deportiva: catálogo, búsqueda, carrito y flujo de usuario. Frontend en un proyecto de equipo.",
+    media: "/EGym.png",
+    url: "https://frontend-pf-three.vercel.app/",
+    github: "https://github.com/jdelaiglesia/egym-frontend",
+    stack: ["React", "Redux", "CSS"],
+    role: "Frontend · equipo",
   },
   {
-    name: "Game Stats Glee",
+    id: "lol-stats",
+    name: "LoL Stats",
     description:
-      "Game Stats Glee is a web application that allows users to track and analyze their gaming statistics. The app displays player profiles, champion performance, match history, and visual data insights through an interactive and responsive interface.",
-    media: gamestatsglee,
-    url: "https://game-stats-glee.vercel.app/",
-    github: "https://github.com/santiagotraba/game-stats-glee",
+      "App para buscar invocadores y ver rendimiento, historial y gráficos. Interfaz de datos densa, pensada para leerse rápido.",
+    media: "/lolstatsdashboard.png",
+    url: "https://lol-stats-dashboard.vercel.app",
+    github: "https://github.com/santiagotraba/lol-stats-dashboard",
+    stack: ["React", "Tailwind", "APIs"],
+    role: "Frontend",
   },
   {
+    id: "atlas",
     name: "Atlas",
     description:
-      "Atlas is a personal job-search tracker. It helps you keep applications, interviews, and offers in one kanban-style pipeline instead of scattered notes and spreadsheets. The UI covers sign-in, a dashboard with status columns (Saved, Applied, Screening, Interview, Offer, Rejected, Withdrawn), job cards, and a form to add roles. It is a frontend mockup: login is simulated, and jobs live in the browser only. There is no backend or database.",
-    media: atlas,
+      "Tracker de búsqueda laboral en kanban: pipeline, cards y alta de postulaciones. Mockup frontend con estado en el navegador.",
+    media: "/atlas.png",
     url: "https://my-job-buddy.vercel.app/auth",
     github: "https://github.com/santiagotraba/my-job-buddy",
+    stack: ["React", "Tailwind"],
+    role: "Frontend",
   },
+  {
+    id: "finzen",
+    name: "Finzen",
+    description:
+      "Gestor de finanzas personales: landing, login y dashboard con gráficos, presupuestos y exportación. Demo de producto frontend.",
+    media: "/finzen.png",
+    url: "https://expense-star.vercel.app/",
+    github: "https://github.com/santiagotraba/expense-star",
+    stack: ["React", "Tailwind"],
+    role: "Frontend",
+  },
+];
+
+export const EXPERIENCE = [
+  {
+    id: "odaclick",
+    company: "Odaclick Game Studio",
+    role: "Desarrollador frontend",
+    period: "Jul 2025 — Actualidad",
+    points: [
+      "Desarrollo interfaces con React y Next.js: componentes reutilizables, layouts responsive y foco en rendimiento.",
+      "Trabajo con diseño, backend y producto para nuevas features y flujos de usuario más claros.",
+      "Mejoro código existente con refactor, optimización y prácticas de frontend.",
+    ],
+  },
+  {
+    id: "poncho",
+    company: "Poncho Capital",
+    role: "Frontend Developer",
+    period: "Oct 2024 — Mar 2025",
+    points: [
+      "Construí interfaces en React, HTML y CSS alineadas a objetivos de producto y experiencia de uso.",
+      "Integré APIs y colaboré con UX/UI y backend para mejorar interacción y mantenimiento del código.",
+    ],
+  },
+];
+
+export const SKILLS = [
+  "React",
+  "Next.js",
+  "TypeScript",
+  "JavaScript",
+  "Tailwind CSS",
+  "HTML",
+  "CSS",
+  "Zustand",
+  "Redux",
+  "Git",
 ];
