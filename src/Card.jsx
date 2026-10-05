@@ -14,15 +14,17 @@ function Card({ project, featured = false }) {
         <ExternalIcon className="h-4 w-4" />
         Ver demo
       </a>
-      <a
-        href={project.github}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center gap-1.5 rounded-lg border border-white/15 bg-white/5 px-3 py-1.5 text-sm font-medium text-white transition hover:border-white/30 hover:bg-white/10"
-      >
-        <GithubIcon className="h-4 w-4" />
-        Código
-      </a>
+      {project.github ? (
+        <a
+          href={project.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 rounded-lg border border-white/15 bg-white/5 px-3 py-1.5 text-sm font-medium text-white transition hover:border-white/30 hover:bg-white/10"
+        >
+          <GithubIcon className="h-4 w-4" />
+          Código
+        </a>
+      ) : null}
     </div>
   );
 
@@ -39,6 +41,11 @@ function Card({ project, featured = false }) {
         )}
       </div>
       <p className="text-sm leading-relaxed text-white/70">{project.description}</p>
+      {project.decisions?.map((line) => (
+        <p key={line} className="text-sm leading-relaxed text-white/70">
+          {line}
+        </p>
+      ))}
       {project.stack?.length > 0 && (
         <ul className="flex flex-wrap gap-1.5">
           {project.stack.map((tech) => (
@@ -50,6 +57,11 @@ function Card({ project, featured = false }) {
             </li>
           ))}
         </ul>
+      )}
+      {project.codeNote && (
+        <span className="w-fit rounded-full border border-white/10 bg-white/5 px-2 py-0.5 text-xs text-white/60">
+          {project.codeNote}
+        </span>
       )}
     </>
   );

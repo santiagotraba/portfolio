@@ -27,9 +27,10 @@ function Portfolio() {
               Frontend Developer · React y TypeScript
             </p>
             <p className="max-w-2xl text-base leading-relaxed text-white/70 md:text-[17px]">
-              Diseño y construyo interfaces para productos web: dashboards, SaaS
-              y experiencias claras. Hoy trabajo en Odaclick Game Studio. Busco
-              el próximo rol frontend en un equipo de producto.
+              Frontend Developer con más de 2 años de experiencia en productos
+              reales: ticketera web, venta de seguros y aplicación de
+              inversiones. Busco mi próximo rol frontend en un equipo de
+              producto.
             </p>
           </div>
           <div className="flex w-full min-w-0 flex-wrap gap-3">
@@ -40,7 +41,7 @@ function Portfolio() {
               Ver proyectos
             </a>
             <a
-              href="/Cv.pdf"
+              href="/Santiago_Traba_CV_Frontend.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-white/15 bg-white/5 px-4 py-2.5 text-sm font-semibold text-white transition hover:border-white/30 hover:bg-white/10 sm:w-auto"
@@ -103,8 +104,7 @@ function Portfolio() {
               Proyectos
             </h2>
             <p className="max-w-2xl text-sm text-white/60">
-              Una selección de interfaces que construí: producto SaaS, paneles,
-              ecommerce y herramientas de uso diario.
+              E-commerce, un dashboard y un gestor de finanzas personales.
             </p>
           </div>
           <Proyectos />

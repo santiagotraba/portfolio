@@ -1,9 +1,11 @@
 import { PROYECTS } from "./proyects";
 import Card from "./Card";
+import { GithubIcon } from "./icons";
 
 function Proyectos() {
-  const featured = PROYECTS.find((p) => p.featured);
-  const rest = PROYECTS.filter((p) => !p.featured);
+  const visible = PROYECTS.filter((project) => project.visible !== false);
+  const featured = visible.find((project) => project.featured);
+  const rest = visible.filter((project) => !project.featured);
 
   return (
     <div className="min-w-0 space-y-4">
@@ -13,6 +15,15 @@ function Proyectos() {
           <Card project={project} key={project.id} />
         ))}
       </div>
+      <a
+        href="https://github.com/santiagotraba"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 text-sm font-medium text-violet-300 transition hover:text-white"
+      >
+        <GithubIcon className="h-4 w-4" />
+        Ver más proyectos en GitHub
+      </a>
     </div>
   );
 }
