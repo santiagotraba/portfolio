@@ -16,10 +16,16 @@
   }
 
   body {
-    @apply overflow-x-hidden bg-neutral-950 text-neutral-100 antialiased;
+    @apply overflow-x-hidden bg-paper text-ink antialiased;
   }
 
   ::selection {
-    background: rgb(167 139 250 / 0.35);
+    background: #12131a;
+    color: #e7e7eb;
+  }
+
+  :focus-visible {
+    outline: 2px solid #12131a;
+    outline-offset: 3px;
   }
 }

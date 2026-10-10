@@ -3,43 +3,31 @@ export const PROYECTS = [
     id: "mate-argentino",
     name: "Mate Argentino",
     description:
-      "E-commerce de mates, en producción. Freelance (2026). Hice el frontend; el backend lo hizo un colaborador.",
-    decisions: [
-      "El carrito es un store de Zustand persistido (mates-terere-cart): si el producto ya está, suma la cantidad, y el total se calcula con cash_price.",
-      "Productos, perfiles y pedidos se leen y escriben con el cliente de Supabase. Las fotos se suben al bucket product-images.",
-    ],
+      "Un cliente necesitaba vender mates por internet. Armé el frontend del e-commerce, que está en producción; el backend lo hizo un colaborador. El carrito es un store de Zustand que persiste (mates-terere-cart): si el producto ya está, suma la cantidad, y el total se calcula con cash_price. Productos, perfiles y pedidos se leen y escriben con el cliente de Supabase, y las fotos se suben al bucket product-images.",
     media: "/mate-argentino.png",
     url: "https://mate-argentino-web-nu.vercel.app/",
-    codeNote: "Código privado (proyecto de cliente)",
+    codeNote: "Código privado: es un proyecto de cliente.",
     stack: ["React", "Zustand", "Supabase", "Tailwind"],
-    role: "Frontend · freelance",
+    role: "Frontend, freelance · 2026",
     featured: true,
   },
   {
     id: "egym",
     name: "E-GYM",
     description:
-      "Ecommerce de indumentaria deportiva: catálogo, búsqueda, carrito y flujo de usuario. Frontend en un proyecto de equipo.",
-    decisions: [
-      "El carrito y la sesión están en React Context y se guardan en localStorage.",
-      "El catálogo se consume con Axios (GET /products) y el listado se pagina en el cliente, de a 10, con un componente Pagination.",
-    ],
+      "Indumentaria deportiva, en un proyecto de equipo. Me ocupé del recorrido de catálogo, búsqueda, carrito y usuario. El carrito y la sesión viven en React Context y se guardan en localStorage. El catálogo se pide con Axios (GET /products) y el listado se pagina en el cliente, de a 10, con un componente Pagination.",
     media: "/EGym.png",
     url: "https://frontend-pf-three.vercel.app/",
     github: "https://github.com/jdelaiglesia/egym-frontend",
     // TODO: confirmar con Santiago — package.json declara Redux Toolkit y react-redux, pero en src no hay un store. El estado que revisé está en Context.
     stack: ["React", "Tailwind", "Axios"],
-    role: "Frontend · equipo",
+    role: "Frontend, en equipo",
   },
   {
     id: "nimbus",
     name: "Nimbus",
     description:
-      "Dashboard con analytics, clientes, billing y modo oscuro. UI de producto: métricas, tablas, gráficos y componentes reutilizables.",
-    decisions: [
-      "Las vistas comparten un layout (sidebar y topbar) definido como ruta padre de React Router.",
-      "Métricas, clientes y facturas salen de un módulo local (mock-data). En clientes, el filtro por texto, plan y estado es estado local.",
-    ],
+      "Una interfaz de producto para leer un negocio de un vistazo: métricas, clientes, facturación y modo oscuro. Las vistas comparten un layout —sidebar y topbar— definido como ruta padre de React Router. Métricas, clientes y facturas salen de un módulo local (mock-data). En clientes, el filtro por texto, plan y estado es estado de esa pantalla.",
     media: "/professionalsaasdashboard.png",
     url: "https://nimbus-plum-nine.vercel.app/",
     github: "https://github.com/santiagotraba/Nimbus",
@@ -50,11 +38,7 @@ export const PROYECTS = [
     id: "finzen",
     name: "Finzen",
     description:
-      "Gestor de finanzas personales: landing, login y dashboard con gráficos, presupuestos y exportación. Demo de producto frontend.",
-    decisions: [
-      "Sesión, categorías, movimientos y presupuestos están en un store de Zustand persistido en localStorage (finance-app-v1).",
-      "Las rutas usan TanStack Router. El login no llama a un backend: cualquier email y contraseña entra al dashboard.",
-    ],
+      "Un gestor de finanzas personales para mostrar el producto de punta a punta: landing, ingreso y un dashboard con gráficos, presupuestos y exportación. La sesión, las categorías, los movimientos y los presupuestos están en un store de Zustand persistido en localStorage (finance-app-v1). Las rutas usan TanStack Router. El ingreso no llama a un backend: con cualquier email y contraseña se entra al dashboard.",
     media: "/finzen.png",
     url: "https://expense-star.vercel.app/",
     stack: ["React", "Zustand", "Tailwind"],
@@ -100,26 +84,25 @@ export const PROYECTS = [
 export const EXPERIENCE = [
   {
     id: "odaclick",
-    company: "Odaclick Games Studio",
-    role: "Frontend Developer",
-    period: "05/2025 – 09/2026",
-    points: [
-      "Equipos de ~10 personas, trabajo conjunto con backend, diseño y producto.",
-      "Universo (ticketera web): maquetación completa de la app móvil en React Native; maquetación, refactorización y consumo de APIs REST en el sitio web.",
-      "Interpass (venta de seguros): maquetación y consumo de APIs REST desde el diseño; tests con Jest de vistas y componentes reutilizables.",
-      "Stack: React, Next.js, TypeScript, Redux, Tailwind CSS, React Native, Jest, Docker.",
+    company: "Odaclick Game Studio",
+    role: "Desarrollador frontend",
+    period: "mayo 2025 – septiembre 2026",
+    paragraphs: [
+      "Entré a productos de clientes del estudio. Los equipos eran de unas diez personas y el trabajo era conjunto con backend, diseño y producto: el diseño llegaba definido y yo lo pasaba a interfaz, siguiendo esa base.",
+      "Universo es una ticketera web. Ahí maqueté la aplicación móvil completa en React Native. En el sitio web maqueté pantallas, refactoricé lo que ya estaba y conecté la interfaz a las APIs REST.",
+      "Interpass es una plataforma de venta de seguros. Partí del diseño y armé las pantallas consumiendo las APIs REST. Mi aporte fue la maquetación, los componentes reutilizables y los layouts responsive, más los tests con Jest de vistas y componentes, para que se pudiera seguir sumando pantallas sin romper lo ya entregado.",
+      "El día a día era React, Next.js, TypeScript, Redux, Tailwind CSS, React Native, Jest y Docker.",
     ],
   },
   {
     id: "poncho",
     company: "Poncho Capital",
-    role: "Frontend Developer",
-    period: "03/2024 – 03/2025 (pasante desde 03/2024, contratado desde 10/2024)",
-    points: [
-      "Interfaz de una aplicación web de inversiones desde el diseño, con componentes reutilizables y vistas responsive.",
-      "Integración con APIs del backend (incluye GraphQL).",
-      "Carga de nuevas monedas en la base de datos (SQL) para habilitar compra y venta.",
-      "Stack: React, JavaScript, TypeScript, HTML, CSS, SQL, GraphQL.",
+    role: "Desarrollador frontend",
+    period: "marzo 2024 – marzo 2025",
+    paragraphs: [
+      "Entré como pasante en marzo de 2024 y quedé contratado desde octubre. El producto era una aplicación web de inversiones. Armé la interfaz desde el diseño: componentes reutilizables y vistas responsive, con el lineamiento visual que ya tenía el equipo.",
+      "Esas pantallas se conectaban a las APIs del backend, incluido GraphQL. También cargué monedas nuevas en la base SQL para habilitar la compra y la venta.",
+      "El stack era React, JavaScript, TypeScript, HTML, CSS, SQL y GraphQL.",
     ],
   },
 ];

@@ -8,23 +8,17 @@ const LINKS = [
 
 function Navbar() {
   return (
-    <nav
-      aria-label="Principal"
-      className="sticky top-0 z-50 border-b border-white/5 bg-neutral-950/80 backdrop-blur-md"
-    >
-      <div className="mx-auto flex max-w-5xl flex-col gap-2 px-5 py-3 sm:flex-row sm:items-center sm:justify-between sm:py-4">
-        <a
-          href="#inicio"
-          className="text-sm font-semibold tracking-tight text-white transition hover:text-violet-300"
-        >
+    <nav aria-label="Principal" className="sticky top-0 z-50 border-b border-line bg-paper">
+      <div className="mx-auto flex max-w-page flex-col gap-2 px-5 py-3 sm:flex-row sm:items-center sm:justify-between sm:py-4">
+        <a href="#inicio" className="text-sm font-semibold tracking-tight text-ink">
           Santiago Traba
         </a>
-        <ul className="flex items-center gap-1 text-sm text-white/70 sm:gap-2">
+        <ul className="flex items-center gap-1 text-sm text-muted sm:gap-2">
           {LINKS.map((link) => (
             <li key={link.href}>
               <a
                 href={link.href}
-                className="rounded-md px-2 py-1.5 transition hover:bg-white/5 hover:text-white sm:px-2.5"
+                className="rounded-sm px-2 py-1.5 transition-colors hover:text-ink sm:px-2.5"
               >
                 {link.label}
               </a>
@@ -36,7 +30,7 @@ function Navbar() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub de Santiago Traba"
-              className="flex rounded-md p-1.5 transition hover:bg-white/5 hover:text-white"
+              className="flex rounded-sm p-1.5 transition-colors hover:text-ink"
             >
               <GithubIcon className="h-5 w-5" />
             </a>
@@ -47,7 +41,7 @@ function Navbar() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn de Santiago Traba"
-              className="flex rounded-md p-1.5 transition hover:bg-white/5 hover:text-white"
+              className="flex rounded-sm p-1.5 transition-colors hover:text-ink"
             >
               <LinkedinIcon className="h-5 w-5" />
             </a>

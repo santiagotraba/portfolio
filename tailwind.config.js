@@ -4,7 +4,16 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter", "system-ui", "sans-serif"],
+        sans: ['"Familjen Grotesk"', "system-ui", "sans-serif"],
+      },
+      colors: {
+        paper: "#e7e7eb",
+        ink: "#12131a",
+        muted: "#5c6070",
+        line: "#c5c7d1",
+      },
+      maxWidth: {
+        page: "72rem",
       },
     },
   },
